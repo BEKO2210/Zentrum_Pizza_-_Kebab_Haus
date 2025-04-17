@@ -494,9 +494,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Submit order form
     const orderForm = document.getElementById('orderForm');
     
-    orderForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
+    const orderSubmitBtn = document.getElementById('submitOrder');
+    orderSubmitBtn.addEventListener('click', function() {
         const name = document.getElementById('customerName').value;
         const address = document.getElementById('customerAddress').value;
         const phone = document.getElementById('customerPhone').value;
@@ -577,24 +576,30 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // WhatsApp-Link mit Tief-Link für mobile Geräte
             let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-            let whatsappURL;
             
             // Telefonnummer in richtigem Format (mit Ländercode, ohne führende 0)
             const phoneNumber = '491742116095'; // Vorformatierte Nummer
             
+            // Nachricht für WhatsApp vorbereiten und URL-sicher machen
+            const encodedMessage = encodeURIComponent(message.replace(/%0A/g, '\n'));
+            
+            let whatsappURL;
             if (isMobile) {
                 // Direkter Link zur WhatsApp-App auf mobilen Geräten
-                whatsappURL = `whatsapp://send?phone=${phoneNumber}&text=${message}`;
+                whatsappURL = `whatsapp://send?phone=${phoneNumber}&text=${encodedMessage}`;
             } else {
                 // Web-Version für Desktop
-                whatsappURL = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
+                whatsappURL = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
             }
             
             console.log('Bestellung wird gesendet an: ' + phoneNumber);
-            console.log('Message: ' + message);
+            console.log('Message: ' + encodedMessage);
             
-            // WhatsApp-Link öffnen
-            window.open(whatsappURL, '_blank');
+            // Bestätigung anzeigen
+            alert("Ihre Bestellung wird jetzt über WhatsApp gesendet. Falls WhatsApp nicht automatisch öffnet, bitte erneut versuchen oder uns telefonisch kontaktieren.");
+            
+            // WhatsApp direkt öffnen
+            window.location.href = whatsappURL;
             
             // Formular zurücksetzen
             orderForm.reset();
