@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Zentrum Pizza und Kebab Haus - Speisekarte</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Custom Stylesheet -->
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary spinner-custom" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Zentrum Pizza und Kebab Haus</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" title="Menü öffnen">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="menu.html" class="nav-item nav-link active">Menü</a>
+                        <a href="contact.html" class="nav-item nav-link">Kontakt</a>
+                    </div>
+                    <a href="menu.html" class="btn btn-primary py-2 px-4" title="Jetzt bestellen">Jetzt bestellen</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Speisekarte</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Menü</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Menu Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Speisekarte</h5>
+                    <h1 class="mb-5">Unser Menü</h1>
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                                <i class="fa fa-pizza-slice fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Unsere</small>
+                                    <h6 class="mt-n1 mb-0">Pizza</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                                <i class="fa fa-drumstick-bite fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Unser</small>
+                                    <h6 class="mt-n1 mb-0">Kebab</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Unsere</small>
+                                    <h6 class="mt-n1 mb-0">Spezialitäten</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-1.jpg" alt="Pizza Margherita">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Margherita</span>
+                                                <span class="text-primary">8,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomatensoße, Käse</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-2.jpg" alt="Pizza Salami">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Salami</span>
+                                                <span class="text-primary">9,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomatensoße, Käse, Salami</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-3.jpg" alt="Pizza Prosciutto">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Prosciutto</span>
+                                                <span class="text-primary">9,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomatensoße, Käse, Schinken</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-4.jpg" alt="Pizza Funghi">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Funghi</span>
+                                                <span class="text-primary">9,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomatensoße, Käse, Champignons</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-5.jpg" alt="Pizza Tonno">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tonno</span>
+                                                <span class="text-primary">9,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomatensoße, Käse, Thunfisch, Zwiebeln</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-6.jpg" alt="Pizza Hawaii">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Hawaii</span>
+                                                <span class="text-primary">9,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomatensoße, Käse, Schinken, Ananas</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-7.jpg" alt="Pizza Quattro Stagioni">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Quattro Stagioni</span>
+                                                <span class="text-primary">10,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomatensoße, Käse, Schinken, Champignons, Artischocken, Oliven</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-8.jpg" alt="Pizza Quattro Formaggi">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Quattro Formaggi</span>
+                                                <span class="text-primary">10,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomatensoße, vier verschiedene Käsesorten</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-9.jpg" alt="Pizza Vegetaria">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vegetaria</span>
+                                                <span class="text-primary">10,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomatensoße, Käse, frische Gemüse</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-10.jpg" alt="Pizza Capricciosa">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Capricciosa</span>
+                                                <span class="text-primary">10,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomatensoße, Käse, Schinken, Champignons, Artischocken, Oliven, Ei</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-11.jpg" alt="Pizza Quattro Carne">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Quattro Carne</span>
+                                                <span class="text-primary">11,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomatensoße, Käse, vier verschiedene Fleischsorten</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-12.jpg" alt="Pizza Prosciutto e Funghi">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Prosciutto e Funghi</span>
+                                                <span class="text-primary">10,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomatensoße, Käse, Schinken, Champignons</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-13.jpg" alt="Pizza Ortolana">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ortolana</span>
+                                                <span class="text-primary">10,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomatensoße, Käse, frische Gemüse, Basilikum</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-14.jpg" alt="Pizza Spicy">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Spicy</span>
+                                                <span class="text-primary">10,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomatensoße, Käse, scharfe Peperoni, Jalapeños</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-1.jpg" alt="Döner im Brot">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Döner im Brot</span>
+                                                <span class="text-primary">6,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Frisches Fladenbrot mit saftigem Dönerfleisch, knackigem Salat und hausgemachter Soße</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-2.jpg" alt="Dürüm Döner">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Dürüm Döner</span>
+                                                <span class="text-primary">7,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Dünnes Fladenbrot gerollt mit saftigem Dönerfleisch, frischem Salat und Soße nach Wahl</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-3.jpg" alt="Döner Box">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Döner Box</span>
+                                                <span class="text-primary">8,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Knusprige Pommes mit saftigem Dönerfleisch, frischem Salat und Soße nach Wahl</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-4.jpg" alt="Dönerteller">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Dönerteller</span>
+                                                <span class="text-primary">10,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Reichlich Dönerfleisch mit Reis oder Pommes, frischem Salat und hausgemachter Soße</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-5.jpg" alt="Lahmacun">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Lahmacun</span>
+                                                <span class="text-primary">5,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Hauchdünne türkische Pizza mit würzigem Hackfleisch und frischem Gemüse</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-6.jpg" alt="Lahmacun mit Döner">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Lahmacun mit Döner</span>
+                                                <span class="text-primary">7,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Türkische Pizza gefüllt mit saftigem Dönerfleisch, Salat und Soße</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-7.jpg" alt="Pide mit Käse">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pide mit Käse</span>
+                                                <span class="text-primary">8,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Traditionelles türkisches Fladenbrot gefüllt mit geschmolzenem Käse</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-8.jpg" alt="Pide mit Hackfleisch">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pide mit Hackfleisch</span>
+                                                <span class="text-primary">9,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Traditionelles türkisches Fladenbrot gefüllt mit würzigem Hackfleisch</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-9.jpg" alt="Chicken Döner">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Döner</span>
+                                                <span class="text-primary">7,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Frisches Fladenbrot mit saftigem Hähnchenfleisch, Salat und Soße</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-10.jpg" alt="Chicken Dürüm">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Dürüm</span>
+                                                <span class="text-primary">8,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Dünnes Fladenbrot gerollt mit saftigem Hähnchenfleisch, Salat und Soße</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-11.jpg" alt="Falafel im Brot">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Falafel im Brot</span>
+                                                <span class="text-primary">6,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Frisches Fladenbrot mit hausgemachten Falafel, Salat und Soße (vegetarisch)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-12.jpg" alt="Falafel Dürüm">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Falafel Dürüm</span>
+                                                <span class="text-primary">7,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Dünnes Fladenbrot gerollt mit hausgemachten Falafel, Salat und Soße (vegetarisch)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-13.jpg" alt="Döner Spezial">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Döner Spezial</span>
+                                                <span class="text-primary">8,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Frisches Fladenbrot mit extra viel Dönerfleisch, Käse, Salat und Soße</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-14.jpg" alt="Familien Döner Box">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Familien Döner Box</span>
+                                                <span class="text-primary">18,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Große Portion Dönerfleisch mit Pommes, Salat und Soße für die ganze Familie</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-1.jpg" alt="Montag: Dönerteller-Angebot">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Montag: Dönerteller-Angebot</span>
+                                                <span class="text-primary">8,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Dönerteller zum Spezialpreis mit extra Fleisch und Beilagen (nur montags)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-2.jpg" alt="Dienstag: Pide-Angebot">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Dienstag: Pide-Angebot</span>
+                                                <span class="text-primary">7,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Jede Pide mit zwei Zutaten nach Wahl zum Sonderpreis (nur dienstags)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-3.jpg" alt="Mittwoch: Pizza-Angebot">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mittwoch: Pizza-Angebot</span>
+                                                <span class="text-primary">7,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Jede Pizza vom Speiseplan zum Sonderpreis (nur mittwochs)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-4.jpg" alt="Donnerstag: Döner-Angebot">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Donnerstag: Döner-Angebot</span>
+                                                <span class="text-primary">5,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Döner im Brot zum Sonderpreis (nur donnerstags)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-5.jpg" alt="Familien-Pizza">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Familien-Pizza</span>
+                                                <span class="text-primary">15,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Extra große Pizza (40cm) mit bis zu 3 Zutaten nach Wahl, ideal für die ganze Familie</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-6.jpg" alt="Kebab-Platte">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Kebab-Platte</span>
+                                                <span class="text-primary">18,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Reichhaltige Platte mit verschiedenen Kebab-Sorten, Reis, Salat und hausgemachten Soßen für 2 Personen</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-7.jpg" alt="Vegetarischer Teller">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vegetarischer Teller</span>
+                                                <span class="text-primary">12,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Reichhaltige Auswahl an vegetarischen Spezialitäten mit Falafel, Hummus, gegrilltem Gemüse und frischem Salat</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-8.jpg" alt="Zentrum Spezial Box">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Zentrum Spezial Box</span>
+                                                <span class="text-primary">14,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Unsere Spezialität: Gemischte Box mit Döner, Falafel, Pommes, Reis und verschiedenen Soßen</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-9.jpg" alt="Kinder Menü">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Kinder Menü</span>
+                                                <span class="text-primary">6,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Kleine Pizza oder Döner mit Pommes und Getränk, speziell für Kinder portioniert</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-10.jpg" alt="Baklava">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Baklava</span>
+                                                <span class="text-primary">4,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Traditionelles türkisches Dessert mit Blätterteig, Honig und Pistazien (3 Stück)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-11.jpg" alt="Kunefe">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Kunefe</span>
+                                                <span class="text-primary">5,50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Warmes Dessert aus Engelshaar-Teig mit Käsefüllung und Sirup, serviert mit Pistazien</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-12.jpg" alt="Getränke-Paket">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Getränke-Paket</span>
+                                                <span class="text-primary">8,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">2-Liter-Flasche Cola oder Fanta, ideal für Familien oder Gruppen</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-13.jpg" alt="Ayran (6er-Pack)">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ayran (6er-Pack)</span>
+                                                <span class="text-primary">6,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Traditionelles türkisches Joghurtgetränk, erfrischend und gesund (6 x 250ml)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded menu-item-img" src="img/menu-14.jpg" alt="Türkischer Tee">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Türkischer Tee</span>
+                                                <span class="text-primary">2,00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Traditioneller schwarzer Tee, serviert im typischen Teeglas</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+
+
+        <!-- Reservation Start -->
+        <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="h-100">
+                        <img class="img-fluid w-100 h-100 img-cover" src="img/video.gif" alt="Pizza und Kebab Animation">
+                    </div>
+                </div>
+                <div class="col-md-6 bg-dark d-flex align-items-center">
+                    <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Bestellung</h5>
+                        <h1 class="text-white mb-4">Bestellung per WhatsApp</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Ihr Name">
+                                        <label for="name">Ihr Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="tel" class="form-control" id="phone" placeholder="Ihre Telefonnummer">
+                                        <label for="phone">Ihre Telefonnummer</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="delivery" onchange="toggleAddressFields()">
+                                            <option value="Abholung">Abholung</option>
+                                            <option value="Lieferung" selected>Lieferung</option>
+                                        </select>
+                                        <label for="delivery">Lieferung/Abholung</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="paymentMethod">
+                                            <option value="Bar">Barzahlung</option>
+                                            <option value="EC">EC-Karte</option>
+                                        </select>
+                                        <label for="paymentMethod">Zahlungsmethode</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control order-textarea" placeholder="Ihre Bestellung" id="orderDetails"></textarea>
+                                        <label for="orderDetails">Ihre Bestellung (z.B. 1x Pizza Margherita, 2x Döner)</label>
+                                    </div>
+                                </div>
+                                <div class="col-12" id="addressFieldsContainer">
+                                    <div class="address-fields-wrapper" id="addressFieldsWrapper">
+                                        <div class="row g-3">
+                                            <div class="col-12">
+                                                <div class="form-floating">
+                                                    <input type="text" class="form-control" id="street" placeholder="Straße und Hausnummer" required>
+                                                    <label for="street">Straße und Hausnummer*</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-floating">
+                                                    <input type="text" class="form-control" id="zip" placeholder="PLZ" required>
+                                                    <label for="zip">PLZ*</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="form-floating">
+                                                    <input type="text" class="form-control" id="city" placeholder="Stadt" required>
+                                                    <label for="city">Stadt*</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="button" onclick="sendWhatsAppOrder()" title="Per WhatsApp bestellen">Per WhatsApp bestellen</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Über uns</h4>
+                        <p class="mb-2">"So Frisch. So Lecker!"</p>
+                        <a class="btn btn-link" href="">Über uns</a>
+                        <a class="btn btn-link" href="">Kontakt</a>
+                        <a class="btn btn-link" href="">Bestellung per WhatsApp</a>
+                        <a class="btn btn-link" href="">Datenschutz</a>
+                        <a class="btn btn-link" href="">AGB</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Kontakt</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Marktplatz 18, 71691 Freiberg am Neckar</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+49 174 2116095</p>
+                        <p class="mb-2"><i class="fab fa-whatsapp me-3"></i>WhatsApp-Bestellung möglich</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Öffnungszeiten</h4>
+                        <h5 class="text-light fw-normal">Montag - Samstag</h5>
+                        <p>10:30 - 21:00 Uhr</p>
+                        <h5 class="text-light fw-normal">Sonntag</h5>
+                        <p>Geschlossen</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Lieferservice</h4>
+                        <p>Liefergebühren:</p>
+                        <p class="mb-1">• Freiberg am Neckar: 3,00€</p>
+                        <p class="mb-1">• Benningen: 5,00€</p>
+                        <p class="mb-1">• Pleidelsheim: 5,00€</p>
+                        <p class="mb-1">• Ingersheim: 5,00€</p>
+                        <p class="mb-1">• Hoheneck: 5,00€</p>
+                        <p class="mb-1">• Lieferung ab 15€</p>
+                        <p class="mb-1">• Kostenlose Lieferung für Firmen</p>
+                        <p>• Andere Städte nach Absprache</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Zentrum Pizza und Kebab Haus</a>, Alle Rechte vorbehalten.
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="index.html">Home</a>
+                                <a href="">Datenschutz</a>
+                                <a href="">Hilfe</a>
+                                <a href="">FAQ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" title="Zurück nach oben"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- Extras Popup Modal -->
+    <div class="modal fade" id="extrasModal" tabindex="-1" aria-labelledby="extrasModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h5 class="modal-title text-white" id="extrasModalLabel">Extras auswählen</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Schließen"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <h6 id="selectedDishName" class="fw-bold mb-3">Gericht</h6>
+                            <p id="selectedDishDescription" class="fst-italic mb-2">Beschreibung</p>
+                            <p id="selectedDishPrice" class="text-primary fw-bold mb-4">Preis</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Menge -->
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <label for="dishQuantity" class="form-label">Menge:</label>
+                            <div class="input-group">
+                                <button class="btn btn-outline-secondary" type="button" id="decreaseQuantity">-</button>
+                                <input type="number" class="form-control text-center" id="dishQuantity" value="1" min="1" max="10">
+                                <button class="btn btn-outline-secondary" type="button" id="increaseQuantity">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Extras für Pizza -->
+                    <div id="pizzaExtras" class="extras-section">
+                        <h6 class="mt-3 mb-2">Extras für Pizza (max. 3 auswählen):</h6>
+                        <p class="small text-muted mb-2">Wählen Sie bis zu 3 zusätzliche Zutaten für Ihre Pizza.</p>
+                        <div class="form-check">
+                            <input class="form-check-input pizza-extra" type="checkbox" value="Salami (+1,00€)" id="extraSalami">
+                            <label class="form-check-label" for="extraSalami">Salami (+1,00€)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input pizza-extra" type="checkbox" value="Schinken (+1,00€)" id="extraHam">
+                            <label class="form-check-label" for="extraHam">Schinken (+1,00€)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input pizza-extra" type="checkbox" value="Champignons (+1,00€)" id="extraMushrooms">
+                            <label class="form-check-label" for="extraMushrooms">Champignons (+1,00€)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input pizza-extra" type="checkbox" value="Thunfisch (+1,50€)" id="extraTuna">
+                            <label class="form-check-label" for="extraTuna">Thunfisch (+1,50€)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input pizza-extra" type="checkbox" value="Zwiebeln (+0,50€)" id="extraOnions">
+                            <label class="form-check-label" for="extraOnions">Zwiebeln (+0,50€)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input pizza-extra" type="checkbox" value="Ananas (+1,00€)" id="extraPineapple">
+                            <label class="form-check-label" for="extraPineapple">Ananas (+1,00€)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input pizza-extra" type="checkbox" value="Oliven (+0,50€)" id="extraOlives">
+                            <label class="form-check-label" for="extraOlives">Oliven (+0,50€)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input pizza-extra" type="checkbox" value="Artischocken (+1,00€)" id="extraArtichokes">
+                            <label class="form-check-label" for="extraArtichokes">Artischocken (+1,00€)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input pizza-extra" type="checkbox" value="Extra Käse (+1,00€)" id="extraCheese">
+                            <label class="form-check-label" for="extraCheese">Extra Käse (+1,00€)</label>
+                        </div>
+                    </div>
+                    
+                    <!-- Extras für Döner -->
+                    <div id="kebabExtras" class="extras-section">
+                        <h6 class="mt-3 mb-2">Extras für Döner:</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Extra Fleisch (+2,00€)" id="extraMeat">
+                            <label class="form-check-label" for="extraMeat">Extra Fleisch (+2,00€)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Extra Käse (+0,50€)" id="extraCheeseKebab">
+                            <label class="form-check-label" for="extraCheeseKebab">Extra Käse (+0,50€)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Scharf (+0,00€)" id="spicy">
+                            <label class="form-check-label" for="spicy">Scharf (+0,00€)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Ohne Zwiebeln (+0,00€)" id="noOnions">
+                            <label class="form-check-label" for="noOnions">Ohne Zwiebeln (+0,00€)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Ohne Tomaten (+0,00€)" id="noTomatoes">
+                            <label class="form-check-label" for="noTomatoes">Ohne Tomaten (+0,00€)</label>
+                        </div>
+                    </div>
+                    
+                    <!-- Extras für Spezialitäten -->
+                    <div id="specialExtras" class="extras-section">
+                        <h6 class="mt-3 mb-2">Extras für Spezialitäten:</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Extra Portion (+2,50€)" id="extraPortion">
+                            <label class="form-check-label" for="extraPortion">Extra Portion (+2,50€)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Extra Soße (+0,50€)" id="extraSauce">
+                            <label class="form-check-label" for="extraSauce">Extra Soße (+0,50€)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Scharf (+0,00€)" id="spicySpecial">
+                            <label class="form-check-label" for="spicySpecial">Scharf (+0,00€)</label>
+                        </div>
+                    </div>
+                    
+                    <!-- Anmerkungen -->
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <label for="orderNotes" class="form-label">Anmerkungen:</label>
+                            <textarea class="form-control" id="orderNotes" rows="2" placeholder="Besondere Wünsche oder Anmerkungen"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Abbrechen</button>
+                    <button type="button" class="btn btn-primary" id="addToOrderBtn">Zur Bestellung hinzufügen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Order Form Modal -->
+    <div class="modal fade" id="orderFormModal" tabindex="-1" aria-labelledby="orderFormModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h5 class="modal-title text-white" id="orderFormModalLabel">Ihr Warenkorb</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Schließen"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <h6 class="mb-3 fw-bold fs-5">Ausgewählte Gerichte</h6>
+                                <div id="orderItemsList" class="list-group mb-3 order-items-list">
+                                    <!-- Hier werden die bestellten Gerichte dynamisch eingefügt -->
+                                </div>
+                                <div class="d-flex justify-content-between mb-3 p-3 bg-light rounded">
+                                    <strong class="fs-5">Gesamtbetrag:</strong>
+                                    <strong id="orderTotalPrice" class="text-primary fs-4">0,00€</strong>
+                                </div>
+                                <div class="d-grid gap-2 mb-4">
+                                    <button type="button" class="btn btn-outline-primary btn-lg" id="addMoreItemsBtn" data-bs-dismiss="modal">
+                                        <i class="bi bi-plus-circle"></i> Weitere Gerichte hinzufügen
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <hr>
+                                <h6 class="mb-3 fw-bold fs-5">Ihre Daten für die Bestellung</h6>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="orderName" placeholder="Ihr Name" required>
+                                    <label for="orderName">Ihr Name*</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="tel" class="form-control" id="orderPhone" placeholder="Ihre Telefonnummer" required>
+                                    <label for="orderPhone">Ihre Telefonnummer*</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="orderDelivery" onchange="toggleAddressFields()">
+                                        <option value="Abholung">Abholung</option>
+                                        <option value="Lieferung" selected>Lieferung</option>
+                                    </select>
+                                    <label for="orderDelivery">Lieferung/Abholung</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="orderPaymentMethod">
+                                        <option value="Bar">Bar</option>
+                                        <option value="EC-Karte">EC-Karte</option>
+                                    </select>
+                                    <label for="orderPaymentMethod">Zahlungsmethode</label>
+                                </div>
+                            </div>
+                            
+                            <!-- Adressfelder direkt sichtbar -->
+                            <div class="col-12 mt-3">
+                                <div class="address-panel p-3 bg-light rounded border">
+                                    <h6 class="mb-3">Lieferadresse</h6>
+                                    <div class="row g-3">
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="orderStreet" placeholder="Straße und Hausnummer" required>
+                                                <label for="orderStreet">Straße und Hausnummer*</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="orderZip" placeholder="PLZ" required>
+                                                <label for="orderZip">PLZ*</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="orderCity" placeholder="Stadt" required>
+                                                <label for="orderCity">Stadt*</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control order-textarea" placeholder="Ihre Bestellung" id="orderDetailsText" readonly></textarea>
+                                    <label for="orderDetailsText">Ihre Bestellung</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Abbrechen</button>
+                    <button type="button" class="btn btn-primary" id="sendOrderBtn">Per WhatsApp bestellen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu Item Click Script -->
+    <script>
+        // Globale Variable für die Bestellung
+        let orderItems = [];
+        
+        // Alle Menüelemente klickbar machen
+        document.addEventListener('DOMContentLoaded', function() {
+            // Menüelemente klickbar machen
+            const menuItems = document.querySelectorAll('.d-flex.align-items-center');
+            menuItems.forEach(item => {
+                item.style.cursor = 'pointer';
+                item.addEventListener('click', function() {
+                    // Informationen über das ausgewählte Gericht sammeln
+                    const dishName = this.querySelector('h5 span:first-child').textContent;
+                    const dishPrice = this.querySelector('h5 span.text-primary').textContent;
+                    const dishDescription = this.querySelector('small.fst-italic').textContent;
+                    
+                    // Modal mit Informationen füllen
+                    document.getElementById('selectedDishName').textContent = dishName;
+                    document.getElementById('selectedDishDescription').textContent = dishDescription;
+                    document.getElementById('selectedDishPrice').textContent = dishPrice;
+                    
+                    // Zurücksetzen der Extras
+                    resetExtras();
+                    
+                    // Bestimmen, welche Art von Gericht es ist und entsprechende Extras anzeigen
+                    const tabId = document.querySelector('.tab-pane.active').id;
+                    document.querySelectorAll('.extras-section').forEach(section => {
+                        section.style.display = 'none';
+                    });
+                    
+                    if (tabId === 'tab-1') {
+                        document.getElementById('pizzaExtras').style.display = 'block';
+                        
+                        // Event-Listener für Pizza-Extras (max. 3)
+                        const pizzaExtras = document.querySelectorAll('.pizza-extra');
+                        pizzaExtras.forEach(checkbox => {
+                            checkbox.addEventListener('change', function() {
+                                const checkedExtras = document.querySelectorAll('.pizza-extra:checked');
+                                if (checkedExtras.length > 3) {
+                                    this.checked = false;
+                                    alert('Sie können maximal 3 Extras auswählen.');
+                                }
+                            });
+                        });
+                    } else if (tabId === 'tab-2') {
+                        document.getElementById('kebabExtras').style.display = 'block';
+                    } else if (tabId === 'tab-3') {
+                        document.getElementById('specialExtras').style.display = 'block';
+                    }
+                    
+                    // Modal öffnen
+                    const extrasModal = new bootstrap.Modal(document.getElementById('extrasModal'));
+                    extrasModal.show();
+                });
+            });
+            
+            // Event-Listener für Mengenänderung
+            document.getElementById('decreaseQuantity').addEventListener('click', function() {
+                const quantityInput = document.getElementById('dishQuantity');
+                if (parseInt(quantityInput.value) > 1) {
+                    quantityInput.value = parseInt(quantityInput.value) - 1;
+                }
+            });
+            
+            document.getElementById('increaseQuantity').addEventListener('click', function() {
+                const quantityInput = document.getElementById('dishQuantity');
+                if (parseInt(quantityInput.value) < 10) {
+                    quantityInput.value = parseInt(quantityInput.value) + 1;
+                }
+            });
+            
+            // Event-Listener für "Zur Bestellung hinzufügen" Button
+            document.getElementById('addToOrderBtn').addEventListener('click', function() {
+                addToOrder();
+                
+                // Modal schließen
+                const extrasModal = bootstrap.Modal.getInstance(document.getElementById('extrasModal'));
+                extrasModal.hide();
+                
+                // Bestellformular nicht automatisch öffnen, damit Kunden mehrere Gerichte bestellen können
+                // Stattdessen nur eine Benachrichtigung anzeigen
+                showToast('Gericht zur Bestellung hinzugefügt! Sie können weitere Gerichte hinzufügen.');
+            });
+            
+            // Event-Listener für Lieferauswahl im Bestellformular
+            document.getElementById('orderDelivery').addEventListener('change', function() {
+                const addressWrapper = document.getElementById('addressFieldsWrapper');
+                const addressInputs = addressWrapper.querySelectorAll('input');
+                
+                if (this.value === 'Lieferung') {
+                    addressWrapper.classList.add('show');
+                    // Bei Lieferung die Adressfelder als Pflichtfelder markieren
+                    addressInputs.forEach(input => {
+                        input.setAttribute('required', 'required');
+                    });
+                } else {
+                    addressWrapper.classList.remove('show');
+                    // Bei Abholung die Pflichtfeld-Markierung entfernen
+                    addressInputs.forEach(input => {
+                        input.removeAttribute('required');
+                    });
+                }
+            });
+            
+            // Initialisierung: Adressfelder anzeigen, wenn Lieferung vorausgewählt ist
+            document.addEventListener('DOMContentLoaded', function() {
+                const deliverySelect = document.getElementById('orderDelivery');
+                if (deliverySelect.value === 'Lieferung') {
+                    const addressWrapper = document.getElementById('addressFieldsWrapper');
+                    addressWrapper.classList.add('show');
+                }
+            });
+            
+            // Event-Listener für "Per WhatsApp bestellen" Button
+            document.getElementById('sendOrderBtn').addEventListener('click', function() {
+                sendWhatsAppOrder();
+            });
+            
+            // Event-Listener für "Weitere Gerichte hinzufügen" Button
+            document.getElementById('addMoreItemsBtn').addEventListener('click', function() {
+                // Modal schließen, damit der Kunde weitere Gerichte auswählen kann
+                const orderFormModal = bootstrap.Modal.getInstance(document.getElementById('orderFormModal'));
+                orderFormModal.hide();
+            });
+            
+            // "Bestellen" Button hinzufügen
+            const orderButton = document.createElement('button');
+            orderButton.className = 'btn btn-primary position-fixed order-button';
+            orderButton.innerHTML = 'Warenkorb anzeigen <span id="orderCount" class="badge bg-light text-dark ms-1">0</span>';
+            orderButton.addEventListener('click', function() {
+                if (orderItems.length > 0) {
+                    const orderFormModal = new bootstrap.Modal(document.getElementById('orderFormModal'));
+                    orderFormModal.show();
+                } else {
+                    alert('Ihr Warenkorb ist leer. Bitte wählen Sie zuerst Gerichte aus.');
+                }
+            });
+            document.body.appendChild(orderButton);
+        });
+        
+        // Funktion zum Zurücksetzen der Extras
+        function resetExtras() {
+            document.getElementById('dishQuantity').value = 1;
+            document.getElementById('orderNotes').value = '';
+            
+            const checkboxes = document.querySelectorAll('.form-check-input');
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = false;
+            });
+        }
+        
+        // Funktion zum Hinzufügen eines Gerichts zur Bestellung
+        function addToOrder() {
+            const dishName = document.getElementById('selectedDishName').textContent;
+            const dishPrice = document.getElementById('selectedDishPrice').textContent;
+            const quantity = parseInt(document.getElementById('dishQuantity').value);
+            
+            // Extras sammeln
+            const extras = [];
+            const checkedExtras = document.querySelectorAll('.extras-section:not(.order-address-fields) input[type="checkbox"]:checked');
+            checkedExtras.forEach(extra => {
+                extras.push(extra.value);
+            });
+            
+            // Neues Bestellelement erstellen
+            const orderItem = {
+                name: dishName,
+                price: dishPrice,
+                quantity: quantity,
+                extras: extras
+            };
+            
+            // Zur Bestellung hinzufügen
+            orderItems.push(orderItem);
+            
+            // Bestellzähler aktualisieren
+            updateOrderCount();
+            
+            // Bestellliste aktualisieren
+            updateOrderItemsList();
+        }
+        
+        // Funktion zum Aktualisieren des Bestellzählers
+        function updateOrderCount() {
+            const orderCount = document.getElementById('orderCount');
+            let totalItems = 0;
+            orderItems.forEach(item => {
+                totalItems += item.quantity;
+            });
+            orderCount.textContent = totalItems;
+        }
+        
+        // Funktion zum Aktualisieren der Bestellliste
+        function updateOrderItemsList() {
+            const orderItemsList = document.getElementById('orderItemsList');
+            orderItemsList.innerHTML = '';
+            
+            let totalPrice = 0;
+            
+            orderItems.forEach((item, index) => {
+                // Preis berechnen
+                const priceText = item.price;
+                const priceValue = parseFloat(priceText.replace('€', '').replace(',', '.'));
+                const itemTotal = priceValue * item.quantity;
+                totalPrice += itemTotal;
+                
+                // Listenelement erstellen
+                const listItem = document.createElement('div');
+                listItem.className = 'list-group-item d-flex justify-content-between align-items-start';
+                
+                // Inhalt des Listenelements
+                let itemContent = `
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">${item.quantity}x ${item.name}</div>
+                `;
+                
+                // Extras hinzufügen, falls vorhanden
+                if (item.extras.length > 0) {
+                    itemContent += `<div class="text-muted small">Extras: ${item.extras.join(', ')}</div>`;
+                }
+                
+                itemContent += `
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span class="badge bg-primary rounded-pill me-2">${itemTotal.toFixed(2).replace('.', ',')}€</span>
+                        <button type="button" class="btn btn-sm btn-outline-danger" onclick="removeOrderItem(${index})">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </div>
+                `;
+                
+                listItem.innerHTML = itemContent;
+                orderItemsList.appendChild(listItem);
+            });
+            
+            // Gesamtpreis aktualisieren
+            const orderTotalPrice = document.getElementById('orderTotalPrice');
+            orderTotalPrice.textContent = totalPrice.toFixed(2).replace('.', ',') + '€';
+            
+            // Bestelldetails für WhatsApp aktualisieren
+            updateOrderDetails();
+        }
+        
+        // Funktion zum Entfernen eines Bestellelements
+        function removeOrderItem(index) {
+            orderItems.splice(index, 1);
+            updateOrderCount();
+            updateOrderItemsList();
+        }
+        
+        // Funktion zum Aktualisieren der Bestelldetails für WhatsApp
+        function updateOrderDetails() {
+            const orderDetailsText = document.getElementById('orderDetailsText');
+            let orderText = '';
+            
+            orderItems.forEach(item => {
+                orderText += `${item.quantity}x ${item.name} (${item.price})\n`;
+                
+                if (item.extras.length > 0) {
+                    orderText += `   - Extras: ${item.extras.join(', ')}\n`;
+                }
+            });
+            
+            orderDetailsText.value = orderText;
+        }
+        
+        // Funktion zum Senden der WhatsApp-Bestellung
+        function sendWhatsAppOrder() {
+            // Prüfen, ob alle erforderlichen Felder ausgefüllt sind
+            const name = document.getElementById('orderName').value.trim();
+            const phone = document.getElementById('orderPhone').value.trim();
+            const delivery = document.getElementById('orderDelivery').value;
+            const paymentMethod = document.getElementById('orderPaymentMethod').value;
+            
+            if (!name || !phone) {
+                alert('Bitte füllen Sie alle Pflichtfelder aus (Name und Telefonnummer).');
+                return;
+            }
+            
+            // Bei Lieferung Adresse prüfen
+            if (delivery === 'Lieferung') {
+                const street = document.getElementById('orderStreet').value.trim();
+                const zip = document.getElementById('orderZip').value.trim();
+                const city = document.getElementById('orderCity').value.trim();
+                
+                if (!street || !zip || !city) {
+                    alert('Bitte geben Sie Ihre vollständige Lieferadresse ein.');
+                    return;
+                }
+            }
+            
+            // WhatsApp-Nummer
+            const whatsappNumber = '4917421160955'; // Ohne Ländervorwahl + und Leerzeichen
+            
+            // Bestelltext erstellen
+            let message = `*Neue Bestellung*%0A%0A`;
+            message += `*Name:* ${name}%0A`;
+            message += `*Telefon:* ${phone}%0A`;
+            message += `*Lieferung/Abholung:* ${delivery}%0A`;
+            message += `*Zahlungsmethode:* ${paymentMethod}%0A%0A`;
+            
+            // Bei Lieferung Adresse hinzufügen
+            if (delivery === 'Lieferung') {
+                const street = document.getElementById('orderStreet').value;
+                const zip = document.getElementById('orderZip').value;
+                const city = document.getElementById('orderCity').value;
+                message += `*Adresse:* ${street}, ${zip} ${city}%0A%0A`;
+            }
+            
+            message += `*Bestellung:*%0A`;
+            
+            // Bestellte Gerichte hinzufügen
+            orderItems.forEach(item => {
+                message += `- ${item.quantity}x ${item.name} (${item.price})%0A`;
+                
+                // Extras hinzufügen, falls vorhanden
+                if (item.extras.length > 0) {
+                    message += `  Extras: ${item.extras.join(', ')}%0A`;
+                }
+            });
+            
+            // Gesamtpreis berechnen und hinzufügen
+            let totalPrice = 0;
+            orderItems.forEach(item => {
+                const priceValue = parseFloat(item.price.replace('€', '').replace(',', '.'));
+                totalPrice += priceValue * item.quantity;
+            });
+            
+            message += `%0A*Gesamtbetrag:* ${totalPrice.toFixed(2).replace('.', ',')}€`;
+            
+            // WhatsApp-Link öffnen
+            window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
+            
+            // Modal schließen
+            const orderFormModal = bootstrap.Modal.getInstance(document.getElementById('orderFormModal'));
+            orderFormModal.hide();
+        }
+        
+        // Funktion zum Anzeigen einer Toast-Nachricht
+        function showToast(message) {
+            const toast = document.createElement('div');
+            toast.className = 'toast show position-fixed bottom-0 end-0 p-2 bg-primary text-white';
+            toast.style.zIndex = '1000';
+            toast.innerHTML = message;
+            document.body.appendChild(toast);
+            setTimeout(function() {
+                toast.remove();
+            }, 3000);
+        }
+        
+        // Funktion zum Ein-/Ausblenden der Adressfelder
+        function toggleAddressFields() {
+            const deliverySelect = document.getElementById('orderDelivery');
+            const addressPanel = document.querySelector('.address-panel');
+            const addressInputs = addressPanel.querySelectorAll('input');
+            
+            if (deliverySelect.value === 'Lieferung') {
+                addressPanel.style.opacity = '1';
+                // Bei Lieferung die Adressfelder als Pflichtfelder markieren
+                addressInputs.forEach(input => {
+                    input.setAttribute('required', 'required');
+                });
+            } else {
+                addressPanel.style.opacity = '0.5';
+                // Bei Abholung die Pflichtfeld-Markierung entfernen
+                addressInputs.forEach(input => {
+                    input.removeAttribute('required');
+                });
+            }
+        }
+        
+        // Initialisierung der Adressfelder beim Laden der Seite
+        document.addEventListener('DOMContentLoaded', function() {
+            // Adressfelder für beide Formulare initialisieren
+            toggleAddressFields();
+            
+            // Auch für das Formular auf der Startseite
+            const deliverySelect = document.getElementById('delivery');
+            if (deliverySelect) {
+                const addressWrapper = document.querySelector('.address-fields-wrapper');
+                if (deliverySelect.value === 'Lieferung' && addressWrapper) {
+                    addressWrapper.classList.add('show');
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
